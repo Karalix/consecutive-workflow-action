@@ -1,10 +1,10 @@
 ⚠️ **This if a fork of the *at the moment* unavailable mktcode/consecutive-workflow-action, there is no maintenance warranty** ⚠️
 
-# Consecutive Workflow Action
+# Consecutive Workflow Action (This doesn't work anymore)
 
 Make workflow runs run consecutively.
 
-Create a comment [here](https://github.com/Karalix/consecutive-workflow-action/issues/5) and delete it immediately and then go to the [Actions tab](https://github.com/Karalix/consecutive-workflow-action/actions) to see how the second workflow run waits for the previous one.
+Create a comment [here](https://github.com/mktcode/consecutive-workflow-action/issues/5) and delete it immediately and then go to the [Actions tab](https://github.com/mktcode/consecutive-workflow-action/actions) to see how the second workflow run waits for the previous one.
 
 ## Usage
 
