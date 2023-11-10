@@ -1,8 +1,10 @@
+⚠️ **This if a fork of the *at the moment* unavailable mktcode/consecutive-workflow-action, there is no maintenance warranty** ⚠️
+
 # Consecutive Workflow Action
 
 Make workflow runs run consecutively.
 
-Create a comment [here](https://github.com/mktcode/consecutive-workflow-action/issues/5) and delete it immediately and then go to the [Actions tab](https://github.com/mktcode/consecutive-workflow-action/actions) to see how the second workflow run waits for the previous one.
+Create a comment [here](https://github.com/Karalix/consecutive-workflow-action/issues/5) and delete it immediately and then go to the [Actions tab](https://github.com/Karalix/consecutive-workflow-action/actions) to see how the second workflow run waits for the previous one.
 
 ## Usage
 
@@ -11,7 +13,7 @@ jobs:
   consecutiveness:
     runs-on: ubuntu-latest
     steps:
-    - uses: mktcode/consecutive-workflow-action@e2e008186aa210faacd68ec30f6ac236f7e2f435
+    - uses: Karalix/consecutive-workflow-action@e2e008186aa210faacd68ec30f6ac236f7e2f435
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
 
