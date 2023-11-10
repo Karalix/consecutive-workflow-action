@@ -13,7 +13,7 @@ jobs:
   consecutiveness:
     runs-on: ubuntu-latest
     steps:
-    - uses: Karalix/consecutive-workflow-action@e2e008186aa210faacd68ec30f6ac236f7e2f435
+    - uses: Karalix/consecutive-workflow-action@b6783fc88609d311ebea703bf258156fa56d8a58
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
 
